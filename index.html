@@ -187,6 +187,10 @@
       <img src="Milka.png" onerror="this.src=''" alt="Milka">
       <span>Milka</span>
     </div>
+    <div class="char-btn" onclick="selectChar(5)">
+      <img src="Bark.png" onerror="this.src=''" alt="Bark">
+      <span>Bark</span>
+    </div>
   </div>
   <button id="playBtn" onclick="startGame()" disabled>▶ ГРАТИ</button>
 </div>
@@ -228,7 +232,7 @@
 // ============================================================
 // CONFIG
 // ============================================================
-const CHARS = ['Tito','Smartik','Junior','Fil','Milka'];
+const CHARS = ['Tito','Smartik','Junior','Fil','Milka', 'Bark'];
 const ENEMY_COLORS = ['#ff4466','#ff8800','#cc44ff','#44ffcc'];
 const CELL = 22; // cell size px
 const COLS = 17;
